@@ -1,0 +1,147 @@
+header{
+    background-image: url(https://www.ansonika.com/foores/img/slides/slide_home_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    .top-header{
+        .logo{
+            width: 10%;
+            img{
+                width: 100%;
+                color: white;
+            }
+        }
+        .menu{
+            li{
+                a{
+                    text-decoration: none;
+                    padding: 15px;
+                    display: block;
+                    color: white;
+                    margin: 10px auto;
+                    &.reserv{
+                        border: 1px solid white;
+                    }
+                }
+            }
+        }
+    }
+    .bottom-header{
+        padding-top: 10%;
+        text-align: right;
+        color: white;
+        h1{
+            font-size: 50px;
+            
+
+        }
+        p{
+            font-size: 20px;
+            margin-bottom: 50px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            background-color: #978667;
+            padding: 12px 25px;
+            border-radius: 6px;
+        }
+    }
+}
+.categs{
+    padding: 10px;
+    .categ{
+        text-align: center;
+        padding: 100px;
+        color: white;
+        width: 32.6%;
+    }
+    .categ1{
+        background-image: url(https://www.ansonika.com/foores/img/banner_1.jpg);
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    }
+    .categ2{
+        background-image: url(https://www.ansonika.com/foores/img/banner_2.jpg);
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    }
+    .categ3{
+        background-image: url(https://www.ansonika.com/foores/img/banner_3.jpg);
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    }
+}
+.about{
+    padding: 100px 0;
+    background-image: url(https://www.ansonika.com/foores/img/pattern_menu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    .img{
+        width: 50%;
+        text-align: right;
+    }
+    .about-text{
+        width: 50%;
+        padding: 0 30px;
+        position: relative;
+        h1{
+            
+            &::before{
+                content: "";
+                position: absolute;
+                top: -20px;
+                left: 30px;
+                width: 40px;
+                height: 3px;
+                background-color: #978667;
+            }
+            &::after{
+                content: "";
+                position: absolute;
+                top: -20px;
+                left: 70px;
+                width: 40px;
+                height: 3px;
+                background-color: rgba(0, 0, 0, 0.116);
+            }
+
+        }
+    }
+}
+.our-menu{
+    padding: 90px;
+    .menu-top{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .menu-bottom{
+        background-image: url(https://www.ansonika.com/foores/img/banner_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    padding: 60px 30px;
+    position: relative;
+    a{
+        
+        text-decoration: none;
+        color: white;
+        background-color: #978667;
+        padding: 12px 25px;
+        border-radius: 6px;
+
+    }
+    img{
+        position: absolute;
+        right: 20px;
+        top: 30px;
+    }
+}
+    
+}
